@@ -1,0 +1,94 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/data/Observation/1> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1201.04" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:25+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/10> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1197.96" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:34+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/2> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.57" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:26+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/3> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.44" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:27+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/346345> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasResult <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure>,
+        1.01936e+05 ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime <http://example.org/data/time_instant> .
+
+<http://example.org/data/Observation/4> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1198.32" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:28+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/5> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.72" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:29+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/6> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1200.90" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:30+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/7> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1201.00" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:31+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/8> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1201.63" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:32+00:00"^^xsd:dateTime .
+
+<http://example.org/data/Observation/9> a sosa:Observation ;
+    sosa:hasFeatureOfInterest <http://example.org/data/earthAtmosphere> ;
+    sosa:hasSimpleResult "1201.17" ;
+    sosa:madeBySensor <http://example.org/data/sensor/35-207306-844818-0/BMP282> ;
+    sosa:observedProperty <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> ;
+    sosa:resultTime "2023-11-26T22:29:33+00:00"^^xsd:dateTime .
+
+<http://example.org/data/iphone7/35-207306-844818-0> a sosa:Platform ;
+    rdfs:label "IPhone 7 - IMEI 35-207306-844818-0"@en ;
+    rdfs:comment "IPhone 7 - IMEI 35-207306-844818-0 - John Doe"@en ;
+    sosa:hosts <http://example.org/data/sensor/35-207306-844818-0/BMP282> .
+
+<http://example.org/data/earthAtmosphere> a sosa:FeatureOfInterest ;
+    rdfs:label "Atmosphere of Earth"@en .
+
+<http://example.org/data/sensor/35-207306-844818-0/BMP282> a sosa:Sensor ;
+    rdfs:label "Bosch Sensortec BMP282"@en ;
+    sosa:observes <http://example.org/data/sensor/35-207306-844818-0/BMP282/atmosphericPressure> .
+
